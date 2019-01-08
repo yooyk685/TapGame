@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4987624432508082}
   - component: {fileID: 33192118536021636}
   - component: {fileID: 23691908545569462}
+  - component: {fileID: 114257969592956638}
+  - component: {fileID: 114948248119535926}
   m_Layer: 0
   m_Name: Uray
   m_TagString: Untagged
@@ -35,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779692728931172}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.1376724, y: 0.02318358, z: 0.73133916}
+  m_LocalPosition: {x: 0, y: 0.023, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,3 +85,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1779692728931172}
   m_Mesh: {fileID: 4300000, guid: 37fad18ae2eb84d158abc6580627c741, type: 3}
+--- !u!114 &114257969592956638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1779692728931172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 196f3440fd26e024b9a0f234a0b18dc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPower: 1
+--- !u!114 &114948248119535926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1779692728931172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5d62737980e4b54181dd060b82789ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
